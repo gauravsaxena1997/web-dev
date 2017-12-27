@@ -1,42 +1,113 @@
-/*HEADER*/
-#header-nav{
-	background-color: blue;
-	border: 0;
-	border-radius: 0;
+/* Base Styles */
+
+* {
+	box-sizing: border-box;
 }
 
-#logo-img{
-	background-image: url("../images/logo.png");
-	width: 250px;
-	height: 48px;
-	margin:10px 15px 10px 0px;
+h1 {
+	font-family: Brushstroke, fantasy;
+	color: #000000;
 }
 
-#nav-list {
+body {
+	background-image: url("background.jpg");
+	background-color: #FEF5CA;
+
+}
+
+p {
+	padding: 10px;
+	margin: 0;
+}
+
+.container {
+	border: none;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	padding: 10px;
+}
+
+section {
+	border:	1px solid black;
+	background-color: #00FF99;
+	width: 100%;
+	height: auto;
+	font-family: Helvetica;
+	color: black;
+	position: relative;
+	overflow: auto;
+}
+
+#chicken {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #FFFF00;
+}
+
+#beef {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	padding: 5px;
+	background-color: #FF1439;
+}
+
+#sushi {
+	border: 1px solid black;
+	text-align: center;
+	width: 30%;
+	margin-left: 70%;
+	font-family: Georgia,sans-serif;
+	font-weight: bold;
+	font-size: 125%;
+	margin-bottom: 0;
+	margin-top: 0;
+	background-color: #6495ED;
+	color: white;
+	padding: 5px;
+}
+
+#chicken-div {
+  margin-bottom: 10px;
   margin-top: 10px;
 }
-#nav-list a {
-  color: #951C49;
-  text-align: center;
-}
-#nav-list a:hover {
-  background: #E7E7E7;
-}
-#nav-list a span {
-  font-size: 1.8em;
+
+#beef-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
 
-#phone {
-  margin-top: 5px;
+#sushi-div {
+  margin-bottom: 10px;
+  margin-top: 10px;
 }
-#phone a { /* Phone number */
-  text-align: right;
-  padding-bottom: 0;
+
+.navbar-brand {
+  font-size: 2em;
+  border: 0 0 10px 10px;
+  color: #FFFFFF;
 }
-#phone div { /* We Deliver */
-  color: #557c3e;
-  text-align: right;
-  padding-right: 15px;
+
+#header-nav {
+  border: 0;
+  background-color: #FC5F06;
+  color: #FFFFFF;
 }
 
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
@@ -46,4 +117,25 @@
   clear: both;
   margin-top: -30px;
 }
-/* END HEADER */
+
+.nav-header {
+  background-color: #FFFFFF;
+}
+
+.nav-brand {
+  color: #FFFFFF;
+  font-size: 1.5em;
+}
+
+#nav-list {
+  color: white;
+}
+
+hr {
+  border-color: white;
+}
+
+.item {
+  color: white;
+  font-size: 1.2em;
+}
